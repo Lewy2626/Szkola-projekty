@@ -1,0 +1,37 @@
+body
+{
+	background-color:pink ;
+	font-family:"verdana, sans-serif";
+}
+
+#jeden
+{ list-style: none;
+  margin: 5px;
+  padding: 0px;
+  display: block;
+  width: 150px;
+}
+#jeden li
+{ display: block;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+#jeden a:link, #jeden a:visited
+{ 
+  background-color: #00ffff; 
+  display: block;
+  color: #005500;
+  text-decoration: none;
+  border: 2px outset #cccccc;
+  padding: 5px;
+  width: 120px;
+}
+#jeden a:hover
+{ 
+  background-color: #0000ff;  
+  color: #ff00ff;
+  text-decoration: underline;
+  border-style: inset;
+  padding: 7px 3px 3px 7px;
+}
