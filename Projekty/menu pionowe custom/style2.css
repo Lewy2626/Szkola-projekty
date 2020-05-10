@@ -1,0 +1,35 @@
+#dwa, #dwa li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#dwa {
+	width: 200px;
+	padding: 2px 2px 1px 2px;
+	background-color: #9ce;
+	border: 3px double purple;
+}
+
+#dwa li {
+	border-bottom: 1px solid #9ce;
+}
+
+#dwa a:link, #dwa a:visited {
+	display: block;
+	width: 176px;
+	text-decoration: none;
+	padding: 7px;
+	font-weight: bold;
+	background-color: #60c;
+	color: white;
+	border-left: 10px solid #45b;
+}
+
+#dwa a:hover {
+	width: 166px;
+	background-color: #60e;
+	color: yellow;
+	border-left: 20px double #45d;
+}
