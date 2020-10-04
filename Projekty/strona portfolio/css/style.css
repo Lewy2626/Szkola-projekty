@@ -58,6 +58,7 @@ body
 .tile1:hover
 {
 	background-color: #c1ad6c;
+	box-shadow: 10px 5px 5px black;
 }	
 
 
